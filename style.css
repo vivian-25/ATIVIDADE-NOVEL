@@ -13,11 +13,11 @@ html{
     scroll-behavior: smooth;
 }
 
-#sky h4, #HOME div h4, #HOME div h1, .middle_space h2{
+#sky h4, #HOME div h4, #HOME div h1, .middle_space h2, .sky_list a, .middle_space h5{
     font-family: 'Archivo', sans-serif;
 }
 
-#HOME div button, #HOME div h5, .sky_list a, .middle_space h5{
+#HOME div button, #HOME div h5{
     font-family: 'Barlow', sans-serif;
 }
 
@@ -166,7 +166,7 @@ button:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-weight: normal;
+    font-weight: lighter;
     text-align: center;
     font-size: 1.2rem;
 }
