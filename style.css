@@ -1,0 +1,41 @@
+/* INICIO de Alteração para todo código */
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* FINAL de Alteração para todo código */
+
+/* INICIO de Alteração para SKY - NAVBAR */
+
+#sky{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1488F2;
+    height: 8.5vh;
+    width: 100%;
+    position: fixed;
+}
+
+#sky h4{
+    color: white;
+    margin-left: 1.3rem;
+}
+
+.sky_list{
+    display: flex;
+    list-style: none;
+}
+
+.sky_list a{
+    margin-right: 1.3rem;
+    padding-right: 0.4vh;
+    text-decoration: none;
+    color: white;
+}
+
+/* FINAL de Alteração para SKY - NAVBAR */
