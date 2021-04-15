@@ -13,11 +13,11 @@ html{
     scroll-behavior: smooth;
 }
 
-#sky h4, #HOME div h4, #HOME div h1{
+#sky h4, #HOME div h4, #HOME div h1, .middle_space h2{
     font-family: 'Archivo', sans-serif;
 }
 
-#HOME div button, #HOME div h5, .sky_list a{
+#HOME div button, #HOME div h5, .sky_list a, .middle_space h5{
     font-family: 'Barlow', sans-serif;
 }
 
@@ -106,12 +106,12 @@ html{
 button{
     border: none;
     border-radius: 5px;
-    height: 8vh;
+    height: 9vh;
     width: 20vw;
     font-size: 1rem;
     color: white;
     font-weight: bold;
-    background-color: #07d162;
+    background-color: #0ae46c;
     transition: .3s;
     margin-top: 5rem;
 }
@@ -139,10 +139,36 @@ button:hover{
 .middle_space{
     background-color: #2C5073;
     width: 100%;
-    height: 60vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
 }
+
+.middle_space h2{
+    font-weight: normal;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.middle_space hr{
+    background-color: yellow;
+    border: none;
+    width: 14%;
+    height: 0.4vh;
+    margin-bottom: 2.5rem;
+}
+
+.middle_space h5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* FINAL de Alteração da ABOUT */
