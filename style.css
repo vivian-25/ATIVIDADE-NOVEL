@@ -172,3 +172,31 @@ button:hover{
 }
 
 /* FINAL de Alteração da ABOUT */
+
+/* INICIO de Alteração do CONTATO */
+
+#CONTACT{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./assets/images/back-contact.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    zoom: 90%;
+}
+
+#CONTACT fieldset{
+    width: 85vw;
+    height: 80vh;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 2px solid #1488F2;
+}
+
+/* FINAL de Alteração do CONTATO */
