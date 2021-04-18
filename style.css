@@ -13,11 +13,11 @@ html{
     scroll-behavior: smooth;
 }
 
-#sky h4, #HOME div h4, #HOME div h1, .middle_space h2, .sky_list a, .middle_space h5{
+#sky h4, #HOME div h4, #HOME div h1, .middle_space h2, .sky_list a, .middle_space h5, #CONTACT fieldset{
     font-family: 'Archivo', sans-serif;
 }
 
-#HOME div button, #HOME div h5{
+#HOME div button, #HOME div h5, #CONTACT fieldset form div input, #CONTACT fieldset form textarea, #CONTACT button{
     font-family: 'Barlow', sans-serif;
 }
 
@@ -103,7 +103,7 @@ html{
     font-weight: normal;
 }
 
-button{
+#HOME div button{
     border: none;
     border-radius: 5px;
     height: 9vh;
@@ -116,7 +116,7 @@ button{
     margin-top: 5rem;
 }
 
-button:hover{
+#HOME div button:hover{
     transition: .3s;
     background-color: #048a40;
     cursor: pointer;
@@ -179,24 +179,97 @@ button:hover{
     width: 100%;
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     background-image: url('./assets/images/back-contact.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    zoom: 90%;
+    zoom: 92%;
 }
 
 #CONTACT fieldset{
     width: 85vw;
     height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     color: #ffffff;
-    font-weight: bold;
-    font-size: 1.5rem;
+    font-weight: normal;
+    font-size: 1.8rem;
     text-align: center;
     border: 2px solid #1488F2;
 }
+
+#CONTACT fieldset form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#CONTACT fieldset form div input{
+    background: none;
+    border: none;
+    width: 20vw;
+    height: 5vh;
+    border-bottom: 3.2px solid #1488F2;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+#CONTACT fieldset form div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+#CONTACT fieldset form textarea{
+    background: none;
+    border: none;
+    width: 40vw;
+    height: 20vh;
+    border: 3.2px solid #1488F2;
+    resize: none;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+::-webkit-input-placeholder{
+    color: #ffffff;
+}
+
+#CONTACT button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3.2px solid #1488F2;
+    border-radius: 6px;
+    height: 7vh;
+    width: 20vw;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: normal;
+    background: none;
+    transition: .2s;
+    margin-top: 3.5rem;
+}
+
+#CONTACT button:hover{
+    transition: .2s;
+    background-color: none;
+    cursor: pointer;
+}
+
+
 
 /* FINAL de Alteração do CONTATO */
