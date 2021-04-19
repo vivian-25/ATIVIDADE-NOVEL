@@ -17,7 +17,7 @@ html{
     font-family: 'Archivo', sans-serif;
 }
 
-#HOME div button, #HOME div h5, #CONTACT fieldset form div input, #CONTACT fieldset form textarea, #CONTACT button{
+#HOME div button, #HOME div h5, #CONTACT fieldset form div input, #CONTACT fieldset form textarea, #CONTACT button, footer{
     font-family: 'Barlow', sans-serif;
 }
 
@@ -190,7 +190,7 @@ html{
 }
 
 #CONTACT fieldset{
-    width: 85vw;
+    width: 100vw;
     height: 80vh;
     display: flex;
     flex-direction: row;
@@ -270,6 +270,34 @@ html{
     cursor: pointer;
 }
 
-
-
 /* FINAL de Alteração do CONTATO */
+
+/* INICIO de Alteração do FOOTER */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 17vh;
+    background-color: #2C5073;
+}
+
+footer p{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+footer div{
+    width: 17.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+/* FINAL de Alteração do FOOTER */
